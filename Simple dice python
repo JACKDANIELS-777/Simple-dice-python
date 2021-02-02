@@ -1,0 +1,16 @@
+import random
+two = 0
+command = ""
+
+while True:
+	r= random.randint(1,6)
+	j = random.randint(1,6)
+	command = input(">")
+	
+	if j == r:
+		print("Double")
+	z = r + j
+	print("You rolled ", str(z))
+
+
+	
