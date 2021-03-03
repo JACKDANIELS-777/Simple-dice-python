@@ -10,7 +10,7 @@ while True:
 	if j == r:
 		print("Double")
 	z = r + j
-	print("You rolled ", str(z))
+	print(f"You rolled {z}") 
 
 
 	
